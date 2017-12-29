@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+    <test name="Device1">
+   <parameter name="Device_ID" value="599436ae" />
+      <classes>
+         <class name="com.ebafniMobilegrid.mobileGrid.MobileGrid"/>
+         <methods> <include name="selendroidAppTest_1"/> </methods> 
+      </classes>
+   </test>
+
+  <test name="Device2">
+   <parameter name="Device_ID" value="0870de4f" />
+      <classes>
+          <class name="ccom.ebafniMobilegrid.mobileGrid.MobileGrid" />
+          <methods> <include name="selendroidAppTest"/> </methods>
+      </classes>
+   </test>
+   
+   
+</suite>
